@@ -3,7 +3,7 @@ Ce projet consiste à déployer Wordpress et Mysql avec des Persistent Volume Cl
 
 Pour utiliser ce projet, il faut déja installer minikube sur sa machine et suivre les étapes suivantes:  
 
-1) Faire un pull du code
+1) Cloner le projet
 
 2) Créer un fichier kustomization.yml qui contient toutes les ressources pour déployer un site Wordpress et une bdd Mysql
 
