@@ -23,9 +23,11 @@ Mettre votre vrai mot de passe à la place de : abcd
 
 4)S'il s'agit de minikube continuez; Sinon faire: kubectl config use-context minikube pour switcher vers minikube
 
-5) Faire : kubectl apply -k ./ pour lancer le déploiement
+5)Démarrer minikube:  minikube start
 
-6) Vous pouvez faire les vérifications ci-dessous pour voir si tout c'est bien passé:
+6) Faire : kubectl apply -k ./ pour lancer le déploiement
+
+7) Vous pouvez faire les vérifications ci-dessous pour voir si tout c'est bien passé:
 
     a)Vérifiez que le secret existe en exécutant la commande suivante : kubectl get secrets
     
